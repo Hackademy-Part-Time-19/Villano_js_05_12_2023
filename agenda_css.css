@@ -1,0 +1,134 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(218, 250, 250);
+    background-color: #505C5C;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+}
+button{
+    background-color: #738585;border-radius: 20px;width: 100px;height: 40px;font-size: 16px;border-style: none;
+}
+button:hover{
+    background-color: #BAD6D6;
+    color: #FAF5D9;
+}
+
+#img_profilo{
+    border: #97ADAD solid; border-radius: 50px;border-width: 4px;width: 30px;height: 30px;
+}
+#img_profilo>img{
+    width: 100%;
+  height:100%;
+  object-fit: cover;
+  border-radius: 50px;
+}
+
+::placeholder{
+    color: #bad6d671;
+}
+#pop-up{
+    background-color: #97ADAD;
+}
+#nominativo{
+    border-bottom: #97ADAD solid;border-width: 1px; padding: 15px;
+display: flex;flex-direction:row ; height: 60px; align-items: center; justify-content: space-around;
+}
+#prima-div{
+    flex: 1;
+    border-right: #97ADAD solid;border-width: 1px; padding: 10px; display: flex; flex-direction: column;height: 95vh;
+}
+#ricerca{
+    display: flex;flex-direction: row;align-content: center;justify-content: space-around; padding: 10px;
+}
+#input_ricerca{
+    display: flex;align-content: center;width: 200px; border-color: #97ADAD solid ;border-width: 4px;;height: fit-content;
+}
+#input_ricerca>input{
+    margin-left: 10px;overflow-x: hidden;
+}
+#input_ricerca>svg{
+    margin-top: 5px;margin-left: 10px;
+}
+#ricercaRapida{
+    display: flex;flex-wrap: wrap;height: 80vh;
+}
+.ricercaPerNumLet{
+    padding: 10px; height: 40px;width: 40px;display: flex;align-content: center;justify-content: center; border-radius: 50px;padding-bottom: 20px;
+}
+.ricercaPerNumLet:hover{
+    color: azure;
+
+    background-color: #738585;
+}
+
+#seconda-div{
+    flex:4.5;margin-left: 20px;margin-right: 20px;padding: 16px; display: flex; flex-direction: column;
+}
+.contattoCss{
+    display: flex; flex-direction: row;align-content: center; border-bottom: #BAD6D6 solid;
+}
+.nomeContattoCss{margin-left: 40px;margin-right: 5px;};
+.cognomeContattoCss{margin-left: 5px;margin-right: 100px;}
+.numeroContattoCss{
+    margin-left: 200px;margin-right: 200px;
+}
+
+.editContattoCss{
+    padding-top: 26px;margin-left: 165px;margin-right: 80px;
+}
+.eliminaContattoCSS{
+    padding-top: 32px;margin-right: 40px;
+}
+.saveContattoCss{
+    padding-top: 26px;margin-left: 60px;margin-right: 40px;
+}
+.cancelContattoCss{
+    padding-top: 26px;margin-right: 20px;
+}
+.input_mod{
+    height: 40px;border-radius: 20px;border-style: none; width: 200px; background-color: #738585;margin-top: 24px;margin-bottom: 26px;margin-left: 20px; padding-left: 10px;padding-right: 10px;
+}
+#terza-div{
+    flex: 5;
+    border-right: #97ADAD solid;border-width: 1px;margin: 10px;padding: 10px; display: flex; flex-direction: column;
+}
+#popUpAddContainer{
+   position: absolute; background-color: #505c5ca5;height: 100vh;width: 100vw;z-index: 2;justify-content: center;align-items: center; display: flex;
+}
+.popUpCSS{
+    background-color: #738585;width: 500px;height: 80vh;border-radius: 40px;z-index: 3;padding: 40px;
+}
+.inputAdd{
+    height: 40px;border-radius: 20px;border-style: none; width: 200px; background-color: #97ADAD;margin: 10px;margin-top: 30px; padding-left: 10px;padding-right: 10px;
+}
+.divInfoPopUp{
+    display: flex;justify-content: space-around;align-content: center;background-color: #738585;
+}
+.divInfoPopUp>h6{
+    display: flex;justify-content: space-around;background-color: #738585;
+}
+.titoloPopUpCss{
+    display: flex;justify-content: space-around;background-color: #738585;
+}
+.titoloPopUpCss>h5{
+    display: flex;justify-content: space-around;background-color: #738585;
+}

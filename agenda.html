@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="shortcut icon" href="https://thumbs.dreamstime.com/z/agenda-icon-vector-isolated-white-background-your-web-mobile-app-design-agenda-logo-concept-agenda-icon-vector-sign-133803101.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./agenda_css.css">
+</head>
+<body>
+    <div style="display: flex ;flex-direction: row;">
+        <div id="prima-div">
+            <div id="nominativo">
+                <div id="img_profilo">
+                    <img src="./img/profilo.JPG" alt="immagine profilo" height="40px" >
+                </div>
+                <h5>Patricio Lourel</h5>
+
+            </div>
+            <div id="ricerca">
+                <div id="input_ricerca">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+                    <input placeholder="cerca" type="text" style="border-style: none;">
+                </div>
+                <div onclick="apriPopUpAddContainer()" id="iconaAggiungi">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0"/>
+                    </svg>
+                </div>
+
+            </div>
+
+            <div id="ricercaRapida">
+                <div class="ricercaPerNumLet"  id="ricercaNumero"><h5>1-9</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraA"><h5>A</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraB"><h5>B</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraC"><h5>C</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraD"><h5>D</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraE"><h5>E</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraF"><h5>F</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraG"><h5>G</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraH"><h5>H</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraI"><h5>I</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraJ"><h5>J</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraK"><h5>K</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraL"><h5>L</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraM"><h5>M</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraN"><h5>N</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraO"><h5>O</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraP"><h5>P</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraQ"><h5>Q</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraR"><h5>R</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraS"><h5>S</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraT"><h5>T</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraU"><h5>U</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraV"><h5>V</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraW"><h5>W</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraX"><h5>X</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraY"><h5>Y</h5></div>
+                <div class="ricercaPerNumLet"  id="ricercaLetteraZ"><h5>Z</h5></div>
+            </div>
+        </div>
+        <div id="seconda-div">
+            <div class="contattoCss" id="contatto">
+                <div class="nomeContattoCss" id="nomeContatto"><h6>Martin</h6></div>
+                <div class="cognomeContattoCss" id="cognomeContatto"><h6>Ikin</h6></div>
+                <div class="numeroContattoCss" id="numeroContatto"><h6>3206007008</h6></div>
+                <div class="editContattoCss" id="editContatto"><button id="editContattoBtn">Edit</button></div>
+                <div  class="eliminaContattoCSS" id="eliminaContatto"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#FAC5C0" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293z"/>
+                </svg></div>
+
+            </div>
+            <div class="contattoCss" id="contattoModifica">
+                <input class="input_mod" id="nuovoNome" type="text" placeholder="Nome">
+                <input class="input_mod" id="nuovoCognome" type="text" placeholder="Cognome">
+                <input class="input_mod" id="nuovoNumero" type="text" placeholder="Numero">
+                <div class="saveContattoCss" id="saveContattoContainer"><button id="saveContattoBtn">Save</button></div>
+                <div class="cancelContattoCss" id="cancelContattoContainer"><button id="cancelContattoBtn">Cancel</button></div>
+
+
+            </div>
+
+        </div>
+
+        <div id="popUpAddContainer">
+
+            <div class="popUpCSS" id="popUpAdd">
+                <div onclick="chiudiPopUpAddContainer()" style="position: absolute; top:50px; right: 430px;cursor: pointer; background-color: #738585;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" fill="currentColor" class="bi bi-x-square" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                      </svg>
+
+                </div>
+                <div class="titoloPopUpCss" id="titoloPopUp"><h5>Add</h5></div>
+                <div id="infoContattoPopUp">
+                    <div class="divInfoPopUp"><h6 style="background-color: #738585;">Nome</h6>
+                        <input class="inputAdd" id="nomeAdd" type="text" placeholder="Nome">
+                    </div>
+                    <div class="divInfoPopUp"><h6>Cognome</h6>
+                        <input class="inputAdd" id="cognomeAdd" type="text" placeholder="Cognome">
+                    </div>
+                    <div class="divInfoPopUp"><h6>Numero</h6>
+                        <input class="inputAdd" id="numeroAdd" type="text" placeholder="Numero">
+                    </div>
+
+
+                </div>
+                <div class="divInfoPopUp">
+                    <button style="background-color: #97ADAD;margin-top: 80px;" id="popUpSave">Save</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="./agenda_script.js"></script>
+</body>
+</html>
